@@ -1,0 +1,195 @@
+.icons-container {
+  float: left;
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-container {
+  float: left;
+  width: 33%;
+  position: relative;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  height: 240px;
+  text-align: center;
+}
+
+.icon {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.personal-info {
+  display: flex;
+  width: 66%;
+  display: block;
+  background-color: #78A1BB;
+  align-items: left;
+  text-align: left;
+}
+
+.profile {
+  display: flex;
+  background-color: #81D2C7;
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 30px 20px 30px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px 20px 0px 20px;
+}
+
+.profile-btns {
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.contact-img {
+  height: 15px;
+}
+
+.download-img {
+  height: 15px;
+}
+
+.download-btn {
+  margin-right: 5px;
+}
+
+.contact-btn {
+  margin-left: 10px;
+}
+
+.experience {
+  background-color: #B4E1FF;
+  display: block;
+}
+
+.education {
+  background-color: #97DFFC;
+  display: block;
+}
+
+.blog {
+  background-color: #78A1BB;
+  display: block;
+}
+
+.social-menu {
+  background-color: #F5FFC6;
+  display: block;
+}
+
+.contact {
+  background-color: #B4E1FF;
+  display: block;
+}
+
+.portfolio {
+  background-color: #F5FFC6;
+  display: block;
+}
+
+.picture {
+  height: 720px;
+  width: 100%;
+  position: absolute;
+}
+
+.arrow {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid black;
+  position: relative;
+  font-size: 25px;
+  margin: 350px 5px 0px 5px;
+}
+
+.right {
+  float: right;
+}
+
+
+@media screen and (max-width: 676px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .profile-btns {
+    margin-top: 5px;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .icons-container {
+    width: 100%;
+  }
+
+  div {
+    width: 50%;
+    height: 180px;
+  }
+
+  .personal-info {
+    width: 0%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .picture-container {
+    display: flex;
+    flex: wrap;
+    height: 180px;
+    width: 100%;
+  }
+
+  .picture {
+    height: 180px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .icon {
+    margin-top: 45px;
+  }
+
+  .arrow {
+    margin: 0px;
+    font-size: 10px;
+    height: 25px;
+    position: static;
+  }
+
+
+}
