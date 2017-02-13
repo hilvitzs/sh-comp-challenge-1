@@ -1,13 +1,13 @@
 .icons-container {
   float: left;
-  width: 66%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .picture-container {
   float: left;
-  width: 33%;
+  width: 40%;
   position: relative;
 }
 
@@ -15,7 +15,7 @@ div {
   display: flex;
   flex-wrap: wrap;
   width: 33%;
-  height: 240px;
+  height: 243px;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@ h2 {
 }
 
 .picture {
-  height: 720px;
+  height: 729px;
   width: 100%;
   position: absolute;
 }
