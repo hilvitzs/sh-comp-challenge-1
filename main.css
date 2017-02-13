@@ -114,7 +114,9 @@ h2 {
 
 .arrow {
   border-radius: 50%;
-  background-color: transparent;
+  background-color: black;
+  color: white;
+  opacity: .5;
   border: 2px solid black;
   position: relative;
   font-size: 25px;
