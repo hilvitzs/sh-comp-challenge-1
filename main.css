@@ -191,7 +191,7 @@ h2 {
   }
 
   .personal-info {
-    width: 0%;
+    width: 100%;
   }
 
   .blog {
@@ -228,5 +228,9 @@ h2 {
     background-size: cover;
     height: 300px;
     width: 100%;
+  }
+
+  .profile-btns {
+    margin: 5px;
   }
 }
